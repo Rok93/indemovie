@@ -34,7 +34,7 @@ public class GalleryFragment extends Fragment implements MainActivity.OnBackPres
         Intent intent = new Intent(getActivity(), NMapViewer.class);
         startActivity(intent);
         View temp = inflater.inflate(R.layout.fragment_home, container,false);
-        //임시로 바꿔놨음 이제보니까 같은 창이 두개가 띄워지는 문제점이 발생하네 (아무기능 안하는 게 문제 ㅋㅋ) ...?
+        //임시로 변경, 동일한 창이 2개 연속으로 나오는 
 
         return null;
 
